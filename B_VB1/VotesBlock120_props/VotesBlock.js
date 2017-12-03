@@ -8,7 +8,7 @@
 
   render: function() {
 
-    let answersCode=[];
+    var answersCode=[];
     for ( var a=0; a<this.props.answers.length; a++ ) {
       var answer=this.props.answers[a];
       var answerCode=        
